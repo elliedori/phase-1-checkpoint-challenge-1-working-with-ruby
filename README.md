@@ -16,7 +16,7 @@ You have 45 minutes to complete the work below.
 
 Afterwards...
 * You will talk through the problem with your cohort-mates
-* You will grade your own work using [this rubric](./rubric.md)
+* You will evaluate your own work using [this rubric](./rubric.md)
 * You will get either a GitHub or in-person code review with your advisor (tag them in the pull request)
 
 #Release 0: TDD
