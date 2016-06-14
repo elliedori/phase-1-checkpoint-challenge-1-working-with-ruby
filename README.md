@@ -1,4 +1,4 @@
-#Checkpoint Challenge #1: Tic Tac Toe
+#Checkpoint Challenge #1: Working with Ruby
 
 Below you will find the first of four checkpoint challenges for Phase 1
 
@@ -26,24 +26,17 @@ else has written the tests for you.  Do not change the tests, but do take a look
 at them to get familiar with this problem.  Remember that the goal is to
 implement the desired functionality, not *just* getting the given tests to pass.
 
+Implement the methods ```#search_in_array``` and ```#numbers_in_hash```
+
 #Release 1: Hello Siri
 
-Open ```hello_siri.rb``` Have a look over the method here and determine
-Open ```./spec/hello_siri_spec.rb```
-#Release 2: #place
+Open ```hello_siri.rb``` Have a look over the method here and determine what functionality the author is trying to achieve.
 
-Implement `#place` using the string for the current player at the given location as shown in the specs.
+Open ```./spec/hello_siri_spec.rb``` Write at least five (5) passing specs to properly test the ```hello_siri``` function.
 
-Again, you can run just the specs you care about using the `-e` flag as shown above.
+Feel free to use the previously provided specs as a guide if you are unsure how to proceed.
 
-#Release 3: #who_won
+#Stretch Release: #Non-Repeating-Chars
 
-Implement `#who_won`, making sure the relevant specs pass.
+Remove the x from the xit specs inside the '#non_repeating_chars' describe block.  Get them to pass.
 
-Output should be 'X', 'O', 'Tie game' or 'Still playing'
-
-#Stretch Release: Make it work for a 5x5 board
-
-How maintainable is your code?
-
-Remove the x from the xit specs inside the '5x5' context.  Get them to pass.
