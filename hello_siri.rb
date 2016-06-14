@@ -1,7 +1,12 @@
 def hello_siri(command, name="Human")
 
-  raise SecurityError, "I'm sorry Dave, I can't let you do that." if name == "Dave"
-  raise ArgumentError, "Invalid Input - Unable to process." if command.class != String
+  if name == "Dave"
+    raise SecurityError, "I'm sorry Dave, I can't let you do that."
+  end
+
+  if command.class != String
+    raise ArgumentError, "Invalid Input - Unable to process."
+  end
 
   case command
   when "Hello"
@@ -13,7 +18,7 @@ def hello_siri(command, name="Human")
   when "How do I become an amazing developer?"
     return "Google it!"
   else
-    return "I'm not sure what you mean. Would you like me to call your emergency contact number?"
+    return "I don't understand. Should I call your emergency contact number?"
   end
 
 end
