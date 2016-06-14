@@ -12,7 +12,7 @@ You have 45 minutes to complete the work below.
 * You may use Google, your notes and your old code.
 * You may NOT use your cohort-mates or look at their code.
 * You may ask teachers and mentors clarifying questions (e.g. if you are having trouble understanding what is being asked)
-* Remember to commit at least once per release and push once you've finished.
+* Remember to commit at least once per release and push at the designated time - not when you are done.
 
 Afterwards...
 * You will talk through the problem with your cohort-mates
