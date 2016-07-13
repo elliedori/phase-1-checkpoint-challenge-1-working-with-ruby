@@ -15,6 +15,7 @@ describe "#hello_siri" do
   end
 
   context "when command and name arguments are valid" do
+    # Write your 5+ tests here
   end
 
 end
