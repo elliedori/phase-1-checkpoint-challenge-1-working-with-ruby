@@ -1,3 +1,5 @@
+require 'date'
+
 def hello_siri(command, name="Human")
 
   if name == "Dave"
