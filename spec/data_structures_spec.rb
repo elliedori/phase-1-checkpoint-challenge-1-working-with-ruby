@@ -1,4 +1,4 @@
-require_relative '../data-structures'
+require_relative '../data_structures'
 require 'rspec'
 
 ###################
