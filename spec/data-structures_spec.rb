@@ -1,4 +1,4 @@
-require_relative '../runner'
+require_relative '../data-structures'
 require 'rspec'
 
 ###################
