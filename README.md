@@ -26,9 +26,9 @@ else has written the tests for you.  Do not change the tests, but do take a look
 at them to get familiar with this problem.  Remember that the goal is to
 implement the desired functionality, not *just* getting the given tests to pass.
 
-Find the specs in ```./spec/runner_spec.rb```
+Find the specs in ```./spec/data_structures_spec.rb```
 
-When you have a good grasp on what the tests are looking for go to ```./runner.rb``` and implement the methods ```#search_in_array``` and ```#numbers_in_hash```
+When you have a good grasp on what the tests are looking for go to ```./data_structures.rb``` and implement the methods ```#search_in_array``` and ```#numbers_in_hash```
 
 Note: Some tests are pending. This is denoted by the x in front of the it statement. These tests are for a future release. So don't worry about them just yet.
 
