@@ -13,6 +13,10 @@ describe "#hello_siri" do
     it "raises an error if untrustworthy humans attempt to access the system" do
       expect{hello_siri("fluffernuffer","Dave")}.to raise_error(SecurityError)
     end
+
+    it "raises an error when given a non-string command" do
+      expect{hello_siri(5,"Ellie")}.to raise_error(ArgumentError)
+    end
   end
 
   context "when command and name arguments are valid" do
@@ -35,7 +39,6 @@ describe "#hello_siri" do
    it "gives standard response when given any other input" do
       expect(hello_siri("Do fish sleep?")).to eq "I don't understand. Should I call your emergency contact number?"
     end
-
   end
 
 end

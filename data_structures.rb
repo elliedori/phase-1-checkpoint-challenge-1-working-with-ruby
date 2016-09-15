@@ -8,9 +8,8 @@ end
 
 def non_repeating_char(word)
   count = Hash.new(0)
-  letters = word.split("")
-  letters.each do |letter|
-    count[letter] += 1
+  word.each_char do |char|
+    count[char] += 1
   end
   return count.key(1)
 end
