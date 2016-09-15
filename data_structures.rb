@@ -1,4 +1,4 @@
-def search_in_array (array, element)
+def search_in_array(array, element)
   array.find_index(element)
 end
 
