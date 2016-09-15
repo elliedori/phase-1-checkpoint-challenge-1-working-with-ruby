@@ -46,7 +46,7 @@ end
 ###################
 
 describe "#non_repeating_char" do
-  xit "returns the first character which is not repeated in a string" do
+  it "returns the first character which is not repeated in a string" do
     expect(non_repeating_char("yellow")).to eq "y"
     expect(non_repeating_char("tooth")).to eq "h"
     expect(non_repeating_char("wallawallabingbang")).to eq "i"
